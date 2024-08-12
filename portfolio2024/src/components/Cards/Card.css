@@ -1,12 +1,11 @@
 .cardWrapper{
     height: 80vh;
     width: auto;
-    background-color: #9fcc2e;
-    border-radius: 100px;
+    background-color: #a6d138;
+    border-radius: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     overflow: hidden;
 }
 .cardText{
@@ -14,12 +13,12 @@
     font-stretch:semi-condensed;
     margin: 10px;
     transform: scaleY(1.2);
-    color: rgb(30, 29, 29);
+    color: #283618;
 }
 .cardText2{
     font-size: clamp(8vw, 10vw, 10vw);
     font-stretch:semi-condensed;
     margin: 10px;
     transform: scaleY(1.2);
-    color:#9bc62e ;
+    color:#9fc936 ;
 }
