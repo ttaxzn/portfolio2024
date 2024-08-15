@@ -1,0 +1,26 @@
+.buttonText{
+    color: #e5f8b5;
+    font-family: 'NohemiLight';
+}
+
+.buttonTextWrapper{
+    border: 1px solid #e5f8b5;
+    padding: 10px;
+    border-radius: 50px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.buttonIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5f8b5;
+    padding: 1%;
+    border-radius: 50%;
+  
+}
+
+.buttonIcon.hidden{
+    display: none;
+}

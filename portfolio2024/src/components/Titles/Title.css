@@ -4,19 +4,24 @@
     grid-template-rows: repeat(2, 1fr); /* Two rows */
     gap: 10px; /* Optional spacing between grid items */
     height: 30vh; /* Set a height for better visibility */
-    width: 70%;
+    width: 60%;
   }
   
   .grid-item {
-    background-color: lightblue; /* Optional styling */
     padding: 20px; /* Optional styling */
     border: 1px solid #000; /* Optional styling */
     display: flex;
+    color: #e5f8b5;
   }
   
-  .left {
+  .leftTop {
     justify-content: flex-start; /* Align content to the top-left */
     align-items: flex-start; /* Align content to the top */
+  }
+
+  .leftBottom {
+    justify-content: flex-start; /* Align content to the top-left */
+    align-items: flex-end; /* Align content to the top */
   }
   
   /* Style for right items */
