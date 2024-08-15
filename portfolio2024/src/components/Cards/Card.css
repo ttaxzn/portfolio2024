@@ -6,20 +6,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     overflow: hidden;
 }
+
 .cardText{
     font-size: clamp(8vw, 10vw, 10vw);
-    font-stretch:semi-condensed;
-    margin: 10px;
-    transform: scaleY(1.2);
     color: rgb(30, 29, 29);
+    font-stretch: expanded;
+    font-family: 'ThunderBlackLC';
 }
 .cardText2{
     font-size: clamp(8vw, 10vw, 10vw);
-    font-stretch:semi-condensed;
-    margin: 10px;
-    transform: scaleY(1.2);
     color:#9bc62e ;
+    font-family: 'ThunderBlackLC';
 }

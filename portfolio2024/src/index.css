@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'ThunderBlackLC';
+  src: local('ThunderBlackLC'), url('./fonts/ThunderBlackLC.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'NohemiLight';
+  src: local('NohemiLight'), url('./fonts/NohemiLight.ttf') format("truetype");
+}
+
