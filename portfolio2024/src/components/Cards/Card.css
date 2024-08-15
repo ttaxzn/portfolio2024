@@ -1,8 +1,8 @@
 .cardWrapper{
     height: 80vh;
     width: auto;
-    background-color: #9fcc2e;
-    border-radius: 100px;
+    background-color: #a6d138;
+    border-radius: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,7 @@
 
 .cardText{
     font-size: clamp(8vw, 10vw, 10vw);
+<<<<<<< HEAD
     color: rgb(30, 29, 29);
     font-stretch: expanded;
     font-family: 'ThunderBlackLC';
@@ -20,3 +21,17 @@
     color:#9bc62e ;
     font-family: 'ThunderBlackLC';
 }
+=======
+    font-stretch:semi-condensed;
+    margin: 10px;
+    transform: scaleY(1.2);
+    color: #283618;
+}
+.cardText2{
+    font-size: clamp(8vw, 10vw, 10vw);
+    font-stretch:semi-condensed;
+    margin: 10px;
+    transform: scaleY(1.2);
+    color:#9fc936 ;
+}
+>>>>>>> 5acb552b407a8424ffdc8a8fbc5be09b3cba5f23

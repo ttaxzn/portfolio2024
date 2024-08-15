@@ -3,7 +3,7 @@
     width: 50%;
     list-style: none;
     justify-content: space-between;
-    color: #9fcc2e;
+    color: #e5f8b5;
     font-size: 2vw;
     font-family: 'NohemiLight';
 }
@@ -13,4 +13,5 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: 15vh;
 }
